@@ -1,0 +1,93 @@
+/* CSS Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d9d9d9;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+}
+
+h1 {
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+}
+.row{
+    margin: 2rem 0;
+}
+.cell{
+    display: inline-block;
+    float: left;
+    min-width: 300px;
+}
+.clear{
+    clear: both;
+}
+.container {
+    position: relative;
+    padding: 2rem;
+    margin: 1rem -1rem;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+}
+
+/* create customer page */
+
+.create_customer .row label{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.create_customer .row label.radio_label{
+    font-weight: normal;
+}
+.create_customer .row .row-input input, .create_customer .row .row-input select{
+    padding: 10px;
+}
+
+.create_customer .row .row-input .error{
+    color: red;
+}
+
+.create_customer .customer{
+    padding: 0 1rem;
+}
+
+.create_customer .customer .row{
+    margin: 1rem 0;
+}
+/* create customer page */
+
+/* current queue list page */
+.queue_table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.queue_table th {
+    color: #fff;
+    background-color: #292b2c;
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+}
+
+.queue_table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+.queue_table td.scope {
+    vertical-align: bottom;
+}
+/* create customer page */
